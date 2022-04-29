@@ -43,6 +43,7 @@
     <artifactId>testng</artifactId>
     <version>7.4.0</version>
     <scope>test</scope>
+    
 </dependency>
 
   </dependencies>
@@ -85,5 +86,7 @@
             </configuration>
         </plugin>
   </plugins>
+ 
   </build>
+ 
 </project>
