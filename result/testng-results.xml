@@ -1,0 +1,39 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results skipped="0" failed="0" ignored="0" total="2" passed="2">
+  <reporter-output>
+  </reporter-output>
+  <suite name="Default suite" duration-ms="9208" started-at="2022-04-23T22:39:58 IST" finished-at="2022-04-23T22:40:07 IST">
+    <groups>
+      <group name="regression">
+        <method signature="Loginpagetestcases1234.Invalidcred()[pri:1, instance:com.abc.testcasespages1234.Loginpagetestcases1234@4ae82894]" name="Invalidcred" class="com.abc.testcasespages1234.Loginpagetestcases1234"/>
+      </group> <!-- regression -->
+      <group name="smoke">
+        <method signature="Loginpagetestcases1234.Validcred()[pri:2, instance:com.abc.testcasespages1234.Loginpagetestcases1234@4ae82894]" name="Validcred" class="com.abc.testcasespages1234.Loginpagetestcases1234"/>
+      </group> <!-- smoke -->
+    </groups>
+    <test name="Default test" duration-ms="9208" started-at="2022-04-23T22:39:58 IST" finished-at="2022-04-23T22:40:07 IST">
+      <class name="com.abc.testcasespages1234.Loginpagetestcases1234">
+        <test-method status="PASS" signature="browserlaunch()[pri:0, instance:com.abc.testcasespages1234.Loginpagetestcases1234@4ae82894]" name="browserlaunch" is-config="true" duration-ms="6237" started-at="2022-04-23T22:39:52 IST" finished-at="2022-04-23T22:39:58 IST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- browserlaunch -->
+        <test-method status="PASS" signature="Extentreport()[pri:0, instance:com.abc.testcasespages1234.Loginpagetestcases1234@4ae82894]" name="Extentreport" is-config="true" duration-ms="542" started-at="2022-04-23T22:39:58 IST" finished-at="2022-04-23T22:39:59 IST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- Extentreport -->
+        <test-method status="PASS" signature="Invalidcred()[pri:1, instance:com.abc.testcasespages1234.Loginpagetestcases1234@4ae82894]" name="Invalidcred" duration-ms="3310" started-at="2022-04-23T22:39:59 IST" finished-at="2022-04-23T22:40:02 IST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- Invalidcred -->
+        <test-method status="PASS" signature="Validcred()[pri:2, instance:com.abc.testcasespages1234.Loginpagetestcases1234@4ae82894]" name="Validcred" duration-ms="5291" started-at="2022-04-23T22:40:02 IST" finished-at="2022-04-23T22:40:07 IST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- Validcred -->
+        <test-method status="PASS" signature="locked()[pri:0, instance:com.abc.testcasespages1234.Loginpagetestcases1234@4ae82894]" name="locked" is-config="true" duration-ms="162" started-at="2022-04-23T22:40:07 IST" finished-at="2022-04-23T22:40:07 IST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- locked -->
+      </class> <!-- com.abc.testcasespages1234.Loginpagetestcases1234 -->
+    </test> <!-- Default test -->
+  </suite> <!-- Default suite -->
+</testng-results>
