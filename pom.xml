@@ -43,7 +43,6 @@
     <artifactId>testng</artifactId>
     <version>7.4.0</version>
     <scope>test</scope>
-    
 </dependency>
 
   </dependencies>
@@ -51,11 +50,8 @@
   <plugins>
   <plugin>
    <groupId>org.apache.maven.plugins</groupId>
-            <artifactId>maven-compiler-plugin</artifactId>
-            <configuration>
-                <source>1.8</source>
-                <target>1.8</target>
-            </configuration>
+    <artifactId>maven-compiler-plugin</artifactId>
+    <version>3.10.1</version>
   </plugin>
   <plugin>
    <groupId>org.apache.maven.plugins</groupId>
@@ -77,16 +73,6 @@
        </suiteXmlFiles>
     </configuration>
   </plugin>
-  <plugin>
-            <artifactId>maven-compiler-plugin</artifactId>
-            <version>3.1</version>
-            <configuration>
-                <fork>true</fork>
-                <executable>C:\Program Files\Java\jdk1.8.0_45\bin\javac.exe</executable>
-            </configuration>
-        </plugin>
   </plugins>
- 
   </build>
- 
 </project>
